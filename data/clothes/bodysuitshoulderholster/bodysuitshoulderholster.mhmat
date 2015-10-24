@@ -1,0 +1,23 @@
+# MakeHuman Material definition
+
+name gunmetalMaterial
+
+// Color shading attributes
+diffuseColor  0.1118 0.1634 0.3002
+specularColor  0.1044 0.07503 0.1396
+shininess 0.1961
+opacity 1
+
+// Textures and properties
+diffuseTexture bodyArmor_shoulderHolster.jpg
+
+// Shader programme
+shader data/shaders/glsl/phong
+
+// Configure built-in shader defines
+shaderConfig diffuse true
+shaderConfig bump false
+shaderConfig normal  false
+shaderConfig displacement  false
+shaderConfig spec  false
+shaderConfig vertexColors false

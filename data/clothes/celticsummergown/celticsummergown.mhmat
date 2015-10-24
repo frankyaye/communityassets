@@ -1,0 +1,22 @@
+# MakeHuman Material definition
+
+name bronzeMaterial
+
+// Color shading attributes
+diffuseColor  0.7438 0.5556 0.3259
+specularColor  0.9102 0.6465 0.7197
+shininess 0.7843
+opacity 1
+
+// Textures and properties
+
+// Shader programme
+shader data/shaders/glsl/phong
+
+// Configure built-in shader defines
+shaderConfig diffuse false
+shaderConfig bump false
+shaderConfig normal  false
+shaderConfig displacement  false
+shaderConfig spec  false
+shaderConfig vertexColors false

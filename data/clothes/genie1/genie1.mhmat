@@ -1,0 +1,23 @@
+# MakeHuman Material definition
+
+name genieredMaterial
+
+// Color shading attributes
+diffuseColor  0.3917 0.07938 0.1976
+specularColor  0.2765 0.2713 0.4408
+shininess 0.1882
+opacity 1
+
+// Textures and properties
+diffuseTexture genie1.png
+
+// Shader programme
+shader data/shaders/glsl/phong
+
+// Configure built-in shader defines
+shaderConfig diffuse true
+shaderConfig bump false
+shaderConfig normal  false
+shaderConfig displacement  false
+shaderConfig spec  false
+shaderConfig vertexColors false

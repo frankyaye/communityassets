@@ -1,0 +1,23 @@
+# MakeHuman Material definition
+
+name ceruleanMaterial
+
+// Color shading attributes
+diffuseColor  0.2991 0.3262 0.5113
+specularColor  0.3139 0.4667 0.4566
+shininess 0.1961
+opacity 1
+
+// Textures and properties
+diffuseTexture sari1.jpg
+
+// Shader programme
+shader data/shaders/glsl/phong
+
+// Configure built-in shader defines
+shaderConfig diffuse true
+shaderConfig bump false
+shaderConfig normal  false
+shaderConfig displacement  false
+shaderConfig spec  false
+shaderConfig vertexColors false

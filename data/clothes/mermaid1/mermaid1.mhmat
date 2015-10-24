@@ -1,0 +1,23 @@
+# MakeHuman Material definition
+
+name mermaidblueMaterial
+
+// Color shading attributes
+diffuseColor  0.2785 0.5093 0.5782
+specularColor  0.08592 0.4135 0.1731
+shininess 0.1882
+opacity 1
+
+// Textures and properties
+diffuseTexture mermaid1.jpg
+
+// Shader programme
+shader data/shaders/glsl/phong
+
+// Configure built-in shader defines
+shaderConfig diffuse true
+shaderConfig bump false
+shaderConfig normal  false
+shaderConfig displacement  false
+shaderConfig spec  false
+shaderConfig vertexColors false

@@ -1,0 +1,23 @@
+# MakeHuman Material definition
+
+name blondecornrowsMaterial
+
+// Color shading attributes
+diffuseColor  0.64 0.2685 0.05823
+specularColor  0.1918 0.03183 0.5
+shininess 0.1961
+opacity 1
+
+// Textures and properties
+diffuseTexture rondaRouseyBlondeCornRows1.png
+
+// Shader programme
+shader data/shaders/glsl/phong
+
+// Configure built-in shader defines
+shaderConfig diffuse true
+shaderConfig bump false
+shaderConfig normal  false
+shaderConfig displacement  false
+shaderConfig spec  false
+shaderConfig vertexColors false

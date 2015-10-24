@@ -1,0 +1,23 @@
+# MakeHuman Material definition
+
+name gunmetalMaterial
+
+// Color shading attributes
+diffuseColor  0.323 0.3529 0.4815
+specularColor  0.5 0.5 0.5
+shininess 0.1961
+opacity 1
+
+// Textures and properties
+diffuseTexture robotArmor.jpg
+
+// Shader programme
+shader data/shaders/glsl/phong
+
+// Configure built-in shader defines
+shaderConfig diffuse true
+shaderConfig bump false
+shaderConfig normal  false
+shaderConfig displacement  false
+shaderConfig spec  false
+shaderConfig vertexColors false

@@ -1,0 +1,23 @@
+# MakeHuman Material definition
+
+name leather__blackMaterial
+
+// Color shading attributes
+diffuseColor  0.7315 0.6678 0.557
+specularColor  0.04314 0.04314 0.04314
+shininess 0.1961
+opacity 1
+
+// Textures and properties
+diffuseTexture black.png
+
+// Shader programme
+shader data/shaders/glsl/phong
+
+// Configure built-in shader defines
+shaderConfig diffuse true
+shaderConfig bump false
+shaderConfig normal  false
+shaderConfig displacement  false
+shaderConfig spec  false
+shaderConfig vertexColors false

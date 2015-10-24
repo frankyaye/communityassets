@@ -1,0 +1,23 @@
+# MakeHuman Material definition
+
+name hermitesspurpleMaterial
+
+// Color shading attributes
+diffuseColor  0.01728 0.01535 0.206
+specularColor  0.2189 0.2477 0.4374
+shininess 0.1843
+opacity 1
+
+// Textures and properties
+diffuseTexture hermitess1.png
+
+// Shader programme
+shader data/shaders/glsl/phong
+
+// Configure built-in shader defines
+shaderConfig diffuse true
+shaderConfig bump false
+shaderConfig normal  false
+shaderConfig displacement  false
+shaderConfig spec  false
+shaderConfig vertexColors false

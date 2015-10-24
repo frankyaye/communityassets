@@ -1,0 +1,23 @@
+# MakeHuman Material definition
+
+name goldMaterial
+
+// Color shading attributes
+diffuseColor  0.64 0.3533 0.1927
+specularColor  0.2542 0.1227 0.5
+shininess 0.3922
+opacity 1
+
+// Textures and properties
+diffuseTexture highBronze1.png
+
+// Shader programme
+shader data/shaders/glsl/phong
+
+// Configure built-in shader defines
+shaderConfig diffuse true
+shaderConfig bump false
+shaderConfig normal  false
+shaderConfig displacement  false
+shaderConfig spec  false
+shaderConfig vertexColors false

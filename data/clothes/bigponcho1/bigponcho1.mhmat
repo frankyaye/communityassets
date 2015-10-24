@@ -1,0 +1,23 @@
+# MakeHuman Material definition
+
+name bigponcho1Material
+
+// Color shading attributes
+diffuseColor  0.336 0.2967 0.1763
+specularColor  0.5 0.5 0.5
+shininess 0.1882
+opacity 1
+
+// Textures and properties
+diffuseTexture highBronze2.jpg
+
+// Shader programme
+shader data/shaders/glsl/phong
+
+// Configure built-in shader defines
+shaderConfig diffuse true
+shaderConfig bump false
+shaderConfig normal  false
+shaderConfig displacement  false
+shaderConfig spec  false
+shaderConfig vertexColors false

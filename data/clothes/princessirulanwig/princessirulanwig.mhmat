@@ -1,0 +1,23 @@
+# MakeHuman Material definition
+
+name irulanblondeMaterial
+
+// Color shading attributes
+diffuseColor  0.6083 0.5352 0.358
+specularColor  0.9043 0.9266 0.6691
+shininess 0.3843
+opacity 1
+
+// Textures and properties
+diffuseTexture irulanBlondeWig1.png
+
+// Shader programme
+shader data/shaders/glsl/phong
+
+// Configure built-in shader defines
+shaderConfig diffuse true
+shaderConfig bump false
+shaderConfig normal  false
+shaderConfig displacement  false
+shaderConfig spec  false
+shaderConfig vertexColors false
